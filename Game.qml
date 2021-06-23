@@ -2,10 +2,9 @@ import QtQuick 2.0
 
 Item {
     property int levels : 10
-    property int count : 0   // кол-во элементов
-    property int number: 0   // номер нужного квадратика
-    property int take: -1 // если > -1, значит пользователь ввел переменную
-    property int user: -1 // если -1 не реагировать на нажатие
+    property int count : 0 
+    property int number: 0  
+    property int user: -1 
     property var tabs: 0
 
     // создание случайной последовательности
